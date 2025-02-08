@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AgriHealth"
         tools:targetApi="31">
         <activity
+            android:name=".DelectedActivity"
+            android:exported="false" />
+        <activity
             android:name=".GetimgActivity"
             android:exported="false" />
         <activity

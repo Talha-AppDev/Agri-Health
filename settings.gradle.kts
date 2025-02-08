@@ -1,3 +1,6 @@
+enableFeaturePreview("VERSION_CATALOGS")
+
+
 pluginManagement {
     repositories {
         google {
@@ -9,6 +12,7 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        jcenter()
     }
 }
 dependencyResolutionManagement {
@@ -16,7 +20,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
+
 }
 
 rootProject.name = "Agri Health"

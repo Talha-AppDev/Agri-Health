@@ -4,4 +4,6 @@
     <string name="identify_crop">Identify Crop</string>
     <string name="agri_health">Agri-Health</string>
     <string name="select_plant">Select Plant</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

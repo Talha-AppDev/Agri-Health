@@ -16,9 +16,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         binding.wheat.setOnClickListener {
             val intent = Intent(this, GetimgActivity::class.java)
+            intent.putExtra("FRAGMENT_TYPE", "WheatFragment")
             startActivity(intent)
         }
-        enableEdgeToEdge()
         setContentView(binding.root)
     }
 }
